@@ -13,8 +13,10 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.sp
 import com.example.pertemuanbasiccompos.ui.theme.PertemuanBasicComposTheme
 
 class MainActivity : ComponentActivity() {
@@ -36,6 +38,9 @@ fun BasicColum(modifier: Modifier = Modifier) {
         verticalArrangement = Arrangement.Top,
         modifier = Modifier.fillMaxSize()
             .padding(top = 50.dp)) {
+        Text ( "Login",
+            fontSize = 50.sp,
+            fontWeight = FontWeight.Bold)
 
     }
 }
