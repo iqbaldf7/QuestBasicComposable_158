@@ -52,6 +52,11 @@ fun BasicColum(modifier: Modifier = Modifier) {
         Image(painter = painterResource(id = R.drawable.umy),
             contentDescription = "",)
 
+        Text( "Nama",
+            fontSize = 20.sp,
+            fontWeight = FontWeight.Normal)
+        Spacer(modifier = Modifier.padding(20.dp))
+
 
 
     }
