@@ -44,7 +44,9 @@ fun BasicColum(modifier: Modifier = Modifier) {
             fontWeight = FontWeight.Bold)
         Spacer(modifier = Modifier.padding(10.dp))
 
-    }
+        Text( text = "Ini Adalah Halaman Login",
+            fontSize = 20.sp,
+            fontWeight = FontWeight.SemiBold)
 }
 
 @Composable
