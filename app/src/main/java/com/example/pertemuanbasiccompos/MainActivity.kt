@@ -10,6 +10,7 @@ import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.size
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
@@ -51,7 +52,9 @@ fun BasicColum(modifier: Modifier = Modifier) {
             fontWeight = FontWeight.SemiBold)
         Spacer(modifier = Modifier.padding(20.dp))
         Image(painter = painterResource(id = R.drawable.umy),
-            contentDescription = "",)
+            contentDescription = "",
+            modifier = Modifier.size(250.dp)
+        )
 
         Text( "Nama",
             fontSize = 20.sp,
@@ -61,6 +64,10 @@ fun BasicColum(modifier: Modifier = Modifier) {
             fontSize = 20.sp,
             fontWeight = FontWeight.SemiBold,
             color = Color.Red)
+
+        Text( " 20220140158 ",
+            fontSize = 50.sp,
+            fontWeight = FontWeight.Bold)
 
 
 
