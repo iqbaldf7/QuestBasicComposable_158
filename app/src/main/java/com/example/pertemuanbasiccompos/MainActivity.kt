@@ -69,6 +69,8 @@ fun BasicColum(modifier: Modifier = Modifier) {
             fontSize = 50.sp,
             fontWeight = FontWeight.Bold)
         Spacer(modifier = Modifier.padding(20.dp))
+        Image(painter = painterResource(id = R.drawable.gambarku),
+            contentDescription = "")
 
 
 
