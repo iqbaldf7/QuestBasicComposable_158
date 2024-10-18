@@ -20,10 +20,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             PertemuanBasicComposTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    Greeting(
-                        name = "Android",
-                        modifier = Modifier.padding(innerPadding)
-                    )
+                    BasicColum(modifier = Modifier.padding(innerPadding))
                 }
             }
         }
