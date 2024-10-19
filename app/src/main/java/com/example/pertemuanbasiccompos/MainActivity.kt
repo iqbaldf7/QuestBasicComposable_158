@@ -58,6 +58,7 @@ fun BasicColum(modifier: Modifier = Modifier) {
             modifier = Modifier.size(250.dp)
         )
 
+
         Text( "Nama",
             fontSize = 20.sp,
             fontWeight = FontWeight.Normal)
