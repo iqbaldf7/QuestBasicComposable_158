@@ -42,6 +42,7 @@ fun BasicColum(modifier: Modifier = Modifier) {
     Column(horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.Top,
         modifier = Modifier.fillMaxSize()
+
             .padding(top = 50.dp)) {
         Text ( "Login",
             fontSize = 50.sp,
