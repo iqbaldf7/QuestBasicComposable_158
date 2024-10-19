@@ -68,6 +68,7 @@ fun BasicColum(modifier: Modifier = Modifier) {
             fontWeight = FontWeight.SemiBold,
             color = Color.Red)
 
+
         Text( " 20220140158 ",
             fontSize = 50.sp,
             fontWeight = FontWeight.Bold)
